@@ -14,23 +14,23 @@ The frontend assessment is a React application with some basic code to define a 
 
 ### Frontend Functionality Acceptance Criteria
 
-- The application has a title of `Preparedness Assessment`
-- The application has an input field
-- The input field has a label that says `Enter your name`
-- Below the input field there are two buttons
-- The first button says `Click Me`
-- The second button says `Reset`
-- The user can enter their name in the input field
-- When the `Click Me` button is selected a modal appears
+X The application has a title of `Preparedness Assessment`
+X The application has an input field
+X The input field has a label that says `Enter your name`
+X Below the input field there are two buttons
+X The first button says `Click Me`
+X The second button says `Reset`
+X The user can enter their name in the input field
+X When the `Click Me` button is selected a modal appears
 
 <img src="./preparedness-frontend/src/assets/landing-page.png" width="80%">
 
-- The modal has a header that greets the user with their name
-- The modal has a body with lorem ipsum filler text
+X The modal has a header that greets the user with their name
+X The modal has a body with lorem ipsum filler text
 
 <img src="./preparedness-frontend/src/assets/open-modal-view.png" width="80%">
 
-- The `Reset` button clears the input field
+X The `Reset` button clears the input field
 
 ### Frontend Styling Acceptance Criteria
 
