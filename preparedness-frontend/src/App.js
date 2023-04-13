@@ -37,15 +37,21 @@ const App = () => {
       <h1>Preparedness Assessment</h1>
       <div className="form">
         <div className="input">
-          <Label for="name">Enter your name</Label>
+          <Label for="name" className="input-label">
+            Enter your name
+          </Label>
           <Input
+            className="input-field"
             value={name}
             name="name"
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <Button onClick={toggle}>Click Me</Button>
-        <Button onClick={reset}>Reset</Button>
+        <div>
+          <Button onClick={toggle}>Click Me</Button>
+          <Button onClick={reset}>Reset</Button>
+        </div>
+
         <ModalComponent modal={modal} toggle={toggle} name={name} />
         {/* <Modal isOpen={modal} toggle={toggle}>
           <ModalHeader toggle={toggle}>{`Greetings, ${name}`}</ModalHeader>
